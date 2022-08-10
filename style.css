@@ -1,0 +1,35 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+.guide {
+    /* text */
+    color: hsl(276, 100%, 81%); /* (sub-heading at the top of the app UI) */
+    color: hsl(276, 55%, 52%); /* (chat on the left) */
+    color: hsl(271, 15%, 43%); /* (chat on the right) */
+    color: hsl(206, 6%, 79%); /* (placeholder text) */
+    color: hsl(271, 36%, 24%); /* main heading */
+    color: hsl(270, 7%, 64%); /* paragraph */
+    
+    /* gradients, they're linear */
+    color: hsl(293, 100%, 63%);
+    color: hsl(264, 100%, 61%);
+
+    /* secondary */
+    color: white;
+    color: hsl(270, 20%, 96%); /* app background */
+    color: hsl(271, 36%, 24%); /* submit button background */
+    color: hsl(289, 100%, 72%); /* radio button outline */
+
+    /* font */
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+
+    /* width */
+    width: 375px; /* mobile */
+    width: 1440px; /* desktop */ 
+}
