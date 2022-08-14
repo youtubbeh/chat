@@ -27,6 +27,36 @@ html,body {
     z-index: -1;
 }
 
+main {
+    display: flex;
+    width: auto;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    max-width: 450px;
+}
+
+h1, h2, p {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-weight: 500;
+    color: hsl(271, 36%, 24%);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    color: hsl(270, 7%, 64%);
+    line-height: 1.5em;
+}
+
+
+
 .back {
     border: solid black;
     border-width: 0 3px 3px 0;
@@ -37,7 +67,9 @@ html,body {
 }
 
 .attribution {
-    font-size: 11px; text-align: center;
+    font-size: 11px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -65,6 +97,7 @@ html,body {
     /* font */
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 400, 500, 700;
 
     /* width */
     width: 375px; /* mobile */
