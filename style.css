@@ -65,6 +65,15 @@ h1 {
     background-color: aquamarine;
 }
 
+.speaker {
+    width: 170px;
+    height: 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    margin: 0 auto;
+}
+
 
 
 
