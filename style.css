@@ -21,7 +21,7 @@ body {
 }
 
 .drop {
-    width: 450px;
+    width: 380px;
     height: 900px;
     background: linear-gradient(30deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     border-radius: 0 0 16em 16em;
@@ -34,6 +34,7 @@ body {
 main {
     display: flex;
     width: auto;
+    height: 100vh;
     gap: 100px;
     justify-content: center;
     align-items: center;
@@ -60,7 +61,7 @@ h1 {
 }
 
 .mockup {
-    height: 480px;
+    height: 500px;
     width: 260px;
     background-color: aquamarine;
 }
@@ -74,10 +75,37 @@ h1 {
     margin: 0 auto;
 }
 
+.avatar {
+    width: 25px;
+}
 
+.stickers-right img {
+    width: 40px;
+}
 
+h2 {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
 
+.status {
+    font-size: 9px;
+    color: hsl(276, 100%, 81%);
+    font-weight: 400;
+}
 
+.settings p {
+    line-height: 0.2em;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conversation p {
+    font-size: 10px;
+    color: hsl(276, 55%, 52%);
+}
 
 .back {
     border: solid black;
