@@ -83,14 +83,13 @@ h1 {
 .panel {
     height: 70px;
     width: 250px;
-    background-color: blue;
     background: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
     position: relative;
     top: -20px;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    border-bottom-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
     display: flex;
     padding: 32px 16px 13px 16px;
     justify-content: space-between;
@@ -121,8 +120,50 @@ h1 {
     margin: 1px;
 }
 
+.conversation {
+    position: relative;
+    top: -20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.them {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left {
+    width: 150px;
+    background-color: #EDE4F5;
+    padding: 5px;
+    border-radius: 9px 9px 9px 2px;
+}
+
+.right {
+    width: 150px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 9px 9px 2px 9px;
+}
+
 .stickers-right img {
     width: 40px;
+    border-radius: 10px;
+}
+
+.stickers-right {
+    display: flex;
+    gap: 8px;
 }
 
 h2 {
@@ -137,9 +178,14 @@ h2 {
     font-weight: 400;
 }
 
-.conversation p {
-    font-size: 10px;
+.left p {
+    font-size: 9px;
     color: hsl(276, 55%, 52%);
+}
+
+.right p {
+    font-size: 9px;
+    color: hsl(271, 15%, 43%); 
 }
 
 .back {
