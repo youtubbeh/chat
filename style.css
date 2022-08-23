@@ -72,7 +72,7 @@ h1 {
 }
 
 .mockup {
-    height: 515px;
+    height: 538px;
     width: 270px;
     background-color: hsl(270, 20%, 96%);
     border-radius: 1.7em;
@@ -153,17 +153,22 @@ h1 {
     gap: 10px;
 }
 
+.bubble {
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
 .left {
-    width: 140px;
+    max-width: 140px;
     background-color: #EDE4F5;
-    padding: 5px;
     border-radius: 9px 9px 9px 3px;
 }
 
 .right {
-    width: 140px;
+    max-width: 140px;
     background-color: white;
-    padding: 5px;
     border-radius: 9px 9px 3px 9px;
 }
 
@@ -190,13 +195,13 @@ h2 {
 }
 
 .left p {
-    font-size: 9px;
     color: hsl(276, 55%, 52%);
+    font-size: 9px;
 }
 
 .right p {
-    font-size: 9px;
     color: hsl(271, 15%, 43%); 
+    font-size: 9px;
 }
 
 .arrow {
@@ -222,7 +227,7 @@ h2 {
 
 .quote {
     background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
-    width: 160px;
+    width: 170px;
     height: 35px;
     padding: 5px;
     border-radius: 9px 9px 9px 3px;
