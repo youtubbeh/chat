@@ -134,10 +134,12 @@ h1 {
 .conversation {
     position: relative;
     top: -20px;
+    height: 393px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    overflow: scroll;
 }
 
 .me {
@@ -260,6 +262,13 @@ h2 {
     border-radius: 50%;
     background-color: transparent;
     border: solid 2px hsla(0, 0%, 100%, 0.2);
+}
+
+form {
+    position: relative;
+    top: -15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 input {
